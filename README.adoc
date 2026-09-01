@@ -1,0 +1,14 @@
+= nav-typology-diataxis
+:description: Optional Diátaxis plugin for @antora-supplemental/nav-typology
+
+Enables path/title detection for tutorial, how-to, reference, and explanation nav items. Strips legacy 🎓/🛠️/📚/🧠 emoji from nav labels when SVG typology icons render.
+
+Install only on Diátaxis-structured sites. Omit from default Facto hard dependencies.
+
+[source,yaml]
+----
+antora:
+  extensions:
+    - require: '@antora-supplemental/nav-typology'
+    - require: '@antora-supplemental/nav-typology-diataxis'
+----
